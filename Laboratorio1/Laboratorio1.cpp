@@ -2,7 +2,7 @@
 #include <cstdlib>
 #include <ctime>
 
-#define MAX 100000
+#define MAX 1000
 
 using namespace std;
 
