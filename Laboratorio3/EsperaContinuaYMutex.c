@@ -17,9 +17,6 @@ void* ThreadWork(void* arg) {
 }
 
 int main() {
-    // Inicializar variables y configurar hilos
-
-    // Número de hilos
     thread_count = 5;
 
     pthread_t threads[thread_count];

@@ -17,7 +17,7 @@ int Insert(int value, struct list_node** head);
 int Delete(int value, struct list_node** head);
 void* ThreadWork(void* rank);
 
-int thread_count = 4;  // Adjust the number of threads as needed
+int thread_count = 4;
 
 int main() {
     // Initialize variables and setup

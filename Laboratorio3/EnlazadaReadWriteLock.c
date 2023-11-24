@@ -51,6 +51,14 @@ int main() {
     } else {
         printf("El valor %d no se encuentra en la lista, no se eliminó.\n", value_to_delete);
     }
+
+    // Validación para la función Member
+    if (Member(value_to_find)) {
+        printf("El valor %d se encuentra en la lista.\n", value_to_find);
+    } else {
+        printf("El valor %d no se encuentra en la lista.\n", value_to_find);
+    }
+    
     // Destruir el candado
     pthread_rwlock_destroy(&rwlock);
 
